@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="14"
+        android:background="#000000"
+        android:visibility="gone"
+        >
+    <Button
+        android:id="@+id/back"
+        android:layout_width="64dp"
+        android:layout_height="fill_parent"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-3dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:background="#000000"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:textColor="#ffffff"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/text" />
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="64dp"
+        android:layout_height="fill_parent"
+        android:text="关闭"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-3dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:background="#000000"
+         />
+    </RelativeLayout>
+
+
+    <WebView
+        android:layout_weight="1"
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-5dp"
+        ></WebView>
+
+</LinearLayout>
