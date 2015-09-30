@@ -56,14 +56,12 @@ public class MainActivity extends Activity {
         ) {
             switch (arg2) {
                 case 0:
-<<<<<<< HEAD
-                    intent=new Intent(MainActivity.this, WebActivity.class);
+                  intent=new Intent(MainActivity.this, WebActivity.class);
                     intent.putExtra("URL", "http://appzq.dichuang.cc/KeYanPingTai/Login.aspx");
                     startActivity(intent);
-=======
-                    Toast.makeText(getApplicationContext(), "研发中...", Toast.LENGTH_SHORT).show();
 
->>>>>>> origin/V1.1
+
+
                     break;
                 case 1:
                     Toast.makeText(getApplicationContext(), "研发中...", Toast.LENGTH_SHORT).show();
@@ -107,13 +105,11 @@ public class MainActivity extends Activity {
                     }
                     break;
                 case 7:
-<<<<<<< HEAD
+
                     intent=new Intent(MainActivity.this, WebActivity.class);
                     intent.putExtra("URL", "http://appzq.dichuang.cc/3d/index.html");
                     startActivity(intent);
-=======
-                    Toast.makeText(getApplicationContext(), "研发中...", Toast.LENGTH_SHORT).show();
->>>>>>> origin/V1.1
+
                     break;
                 default:
                     break;

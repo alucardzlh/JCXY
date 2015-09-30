@@ -8,13 +8,11 @@ android {
         applicationId "com.example.alucard.jcxy"
         minSdkVersion 17
         targetSdkVersion 22
-<<<<<<< HEAD
+
         versionCode 2
         versionName "1.1"
-=======
-        versionCode 1
-        versionName "1.0"
->>>>>>> origin/V1.1
+
+
     }
     buildTypes {
         release {
