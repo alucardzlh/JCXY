@@ -55,19 +55,19 @@ public class MainActivity extends Activity {
                                 long arg3//The row id of the item that was clicked
         ) {
             switch (arg2) {
-                case 0:
+                case 0://移动科研
                   intent=new Intent(MainActivity.this, WebActivity.class);
-                    intent.putExtra("URL", "http://appzq.dichuang.cc/KeYanPingTai/Login.aspx");
+                    intent.putExtra("URL","http://59.53.92.202:8099/keyanpingtai/login.aspx"/*"http://appzq.dichuang.cc/KeYanPingTai/Login.aspx"*/);
                     startActivity(intent);
 
 
 
                     break;
-                case 1:
+                case 1://移动教务
                     Toast.makeText(getApplicationContext(), "研发中...", Toast.LENGTH_SHORT).show();
 
                     break;
-                case 2:
+                case 2://资源共享
                     //Toast.makeText(getApplicationContext(), "研发中...", Toast.LENGTH_SHORT).show();
                  /*   intent=new Intent(MainActivity.this, WebActivity.class);
                     intent.putExtra("URL","http://appzq.dichuang.cc/shuxianqinhua/Search.aspx");
@@ -81,22 +81,22 @@ public class MainActivity extends Activity {
 
 
                     break;
-                case 3:
+                case 3://智慧图书馆
                     startActivity(new Intent(MainActivity.this, WebActivity.class));
                     break;
-                case 4:
+                case 4://就业信息
                     //Intent intent0 = new Intent(MainActivity.this, WebActivity.class);
                     intent=new Intent(MainActivity.this, WebActivity.class);
-                    intent.putExtra("URL", "http://appzq.dichuang.cc/zhaopinxinxi/list.aspx");
+                    intent.putExtra("URL","http://59.53.92.202:8099/zhaopinxinxi/list.aspx"/*"http://appzq.dichuang.cc/zhaopinxinxi/list.aspx"*/);
                     startActivity(intent);
                     break;
-                case 5:
+                case 5://最新资讯
                     //Intent intent1 = new Intent(MainActivity.this, WebActivity.class);
                     intent=new Intent(MainActivity.this, WebActivity.class);
-                    intent.putExtra("URL", "http://appzq.dichuang.cc/xinwendontai/list.aspx");
+                    intent.putExtra("URL","http://59.53.92.202:8099/xinwendontai/list.aspx" /*"http://appzq.dichuang.cc/xinwendontai/list.aspx"*/);
                     startActivity(intent);
                     break;
-                case 6:
+                case 6://移动OA
                     Intent intent1 = getPackageManager().getLaunchIntentForPackage("com.JCXYOA.Activity");
                     if (intent1 != null) {
                         startActivity(intent1);
@@ -104,10 +104,10 @@ public class MainActivity extends Activity {
                         Toast.makeText(getApplicationContext(), "请先安装警察学院移动OA应用", Toast.LENGTH_LONG).show();
                     }
                     break;
-                case 7:
+                case 7://校园地图
 
                     intent=new Intent(MainActivity.this, WebActivity.class);
-                    intent.putExtra("URL", "http://appzq.dichuang.cc/3d/index.html");
+                    intent.putExtra("URL", "http://59.53.92.202:8099/3d/index.html"/*"http://appzq.dichuang.cc/3d/index.html"*/);
                     startActivity(intent);
 
                     break;

@@ -29,7 +29,7 @@ public class WebActivity extends Activity implements OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.web_activity);
-        URL="http://appzq.dichuang.cc/default.aspx";
+        URL="http://59.53.92.202:8099/jcxy/tsgsy.aspx"/*"http://appzq.dichuang.cc/default.aspx"*/;
         intent=getIntent();
         if(intent.getStringExtra("URL")!=null){
           URL=intent.getStringExtra("URL");
